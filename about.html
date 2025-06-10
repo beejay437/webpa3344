@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Bolaji Akintunde</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: red;
+      padding: 1em;
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">&larr; Back to Home</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h3>About Me</h3>
+      <p>My name is Bolaji Akintunde. I'm a 100-level Computer Science student at Thomas Adewunmi University. I have a strong passion for technology and software development.</p>
+    </div>
+    <div class="card">
+      <h3>Skills & Interests</h3>
+      <p>I am learning HTML, CSS, and JavaScript, and I'm eager to build modern, responsive websites. I enjoy solving problems and continuously improving my coding skills.</p>
+    </div>
+    <div class="card">
+      <h3>My Goal</h3>
+      <p>My goal is to become a professional full-stack developer and contribute to impactful software projects. I believe in hard work, consistency, and lifelong learning.</p>
+    </div>
+  </div>
+
+</body>
+</html>
